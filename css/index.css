@@ -7,6 +7,11 @@ body{
 	  background-repeat: no-repeat;
 	  background-size: cover; /* 或者使用100% 100%以适应整个页面 */
 	  background-attachment: fixed;
+	  
+	     -moz-user-select: none; /* Firefox */
+	      -webkit-user-select: none; /* Chrome, Opera, Safari, etc. */
+	      -ms-user-select: none; /* IE10+ */
+	      user-select: none; /* Standard version */
 #app{
 	width: 100%;
 	padding-bottom: 10vh;
@@ -29,7 +34,7 @@ body{
 	/* background-color: rebeccapurple; */
 }
 .imgList>img{
-	width: 40%;
-	margin-right: 10vh;
+	width: 30%;
+	margin-right: 10vw;
 	margin-top: 10vh;
 }
