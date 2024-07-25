@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#app{
+	width: 100%;
+}
+.title{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	
+	/* background-color: rebeccapurple; */
+}
+.imgList{
+	width: 50%;
+	margin: 10px auto;
+	text-align: center;
+	/* background-color: rebeccapurple; */
+}
+.imgList>img{
+	width: 60%;
+}
